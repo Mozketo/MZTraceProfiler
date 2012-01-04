@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://github.com/Mozketo/MZTraceProfiler</licenseUrl>
+    <projectUrl>http://github.com/Mozketo/MZTraceProfiler</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2012 Ben Clark-Robinson</copyright>
+    <tags>Trace Profiler Profile c# .net</tags>
+  </metadata>
+</package>

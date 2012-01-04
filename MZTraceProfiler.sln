@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MZTraceProfiler", "MZTraceProfiler\MZTraceProfiler.csproj", "{5E0D6478-2FEE-4AE2-A706-995DF0F2B439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MZTraceProfiler.Tests", "MZTraceProfiler.Tests\MZTraceProfiler.Tests.csproj", "{03C59798-D500-4CEF-B817-FA911C9BF100}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFD5F512-9EBE-4B40-B52F-745605C2EE38}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		TraceProfiler.vsmdi = TraceProfiler.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TraceProfiler.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E0D6478-2FEE-4AE2-A706-995DF0F2B439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0D6478-2FEE-4AE2-A706-995DF0F2B439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0D6478-2FEE-4AE2-A706-995DF0F2B439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0D6478-2FEE-4AE2-A706-995DF0F2B439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C59798-D500-4CEF-B817-FA911C9BF100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C59798-D500-4CEF-B817-FA911C9BF100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C59798-D500-4CEF-B817-FA911C9BF100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C59798-D500-4CEF-B817-FA911C9BF100}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
