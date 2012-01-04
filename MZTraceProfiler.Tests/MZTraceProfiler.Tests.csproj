@@ -52,7 +52,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MZTraceProfiler\MZTraceProfiler.csproj">
       <Project>{5E0D6478-2FEE-4AE2-A706-995DF0F2B439}</Project>
-      <Name>TraceProfiler</Name>
+      <Name>MZTraceProfiler</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

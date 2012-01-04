@@ -14,7 +14,6 @@ namespace MZTraceProfiler.Tests
     	public override void Write(string message)
     	{
     		_output.Message += message;
-			
     	}
 
     	public override void WriteLine(string message)
