@@ -1,10 +1,10 @@
-# TraceProfiler (for .net)
+# Trace Profiler (for .net) aka MZTraceProfiler
 
-Quickly wrap a block of code with TraceProfiler to see how long it's taking to execute.
+Quickly wrap a block of code with TraceProfiler to see how long it's taking to execute. The duration will be automatically sent to your projects Trace output.
 
-#NuGet
+#Installing via NuGet
 
-A NuGet package is TBA.
+Easily add this package to your Project using NuGet. You can find the NuGet package [here](http://nuget.org/packages/MZTraceProfiler).
 
 ## IMPLEMENTATION:
 
@@ -13,10 +13,28 @@ A NuGet package is TBA.
         Thread.Sleep(1000);
     }
     
+Now that the TraceProfiler has disposed of itself the duration of the code block with the name "Load Events" will be sent to the TraceListener. Example:
+
+	14/07/2006 1:00:05 AM UTC - Load Events duration (ms): 2000.7156
+	
+## Trace Listeners
+
+Haven't setup your TraceListeners? Here's an example that should get you going.
+	
+	<system.diagnostics>
+		<trace autoflush="true" indentsize="4">
+			<listeners>
+				<!-- Trace to Console -->
+				<add name="configConsoleListener" type="System.Diagnostics.ConsoleTraceListener" />
+				<!-- Trace to File -->
+				<!-- <add name="configFileListener" type="System.Diagnostics.TextWriterTraceListener" initializeData="D:\webservers\AnziifUAT\uploads\TraceOutput.log" /> -->
+			</listeners>
+		</trace>
+	</system.diagnostics>
+	
 ## REQUIREMENTS:
 
-Requires .Net 4.
-
+Requires .Net 2.
 
 ## LICENSE:
 
